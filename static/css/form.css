@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.kontent {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto 0; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.kontent .input-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.kontent .input-row label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.kontent .input-row input,
+.kontent .input-row select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.kontent .input-row #submit-button {
+  margin-top: 10px;
+}
+
+.kontent #submit-button {
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  background-color: #3498db;
+}

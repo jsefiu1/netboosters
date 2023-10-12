@@ -1,0 +1,91 @@
+.parent-form {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-family: Arial, Helvetica, sans-serif;
+  }
+.parent-form form {
+    background-color: #F2F2F2;
+    border-radius: 20px; 
+    border: 1px solid #F2F2F2; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 480px;
+    margin-right: 50px;
+    margin-top: 70px;
+  }
+
+  .parent-form form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .parent-form form input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family:  sans-serif;
+  }
+
+  .parent-form form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #3498db;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+  }
+  .parent-form form input[type="submit"]:hover{
+    background-color: #082e47;
+    transition: 0.5s;
+  }
+  .parent-form form legend {
+    position: relative;
+    font-size: 30px;
+    bottom: 7%;
+    font-weight: bold;
+  }
+  .parent-form form input{
+    padding: 10px;
+    border-radius: 5px; 
+    border: 1px solid #fff; 
+  }
+  .parent-form label ,a {
+    text-decoration: none;
+  }
+
+  .parent-form form select {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.parent-form form select option {
+  font-size: 16px;
+} 
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input.error,
+select.error {
+  border-color: red;
+}
